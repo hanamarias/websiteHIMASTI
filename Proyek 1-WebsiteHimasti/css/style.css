@@ -1,0 +1,33 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all .3s ease-out;
+}
+/* *****************Style Header****************** */
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+}
+header nav .container-fluid .navbar-brand{
+  font-size: 30px;
+}
+header nav .container-fluid ul li a{
+  border-radius: 15px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+header nav .container-fluid ul li a.active,
+header nav .container-fluid ul li a:hover{
+  background-color: #6666ff;
+  padding: 0, 20px;
+}
+.beranda .carousel-inner img{
+  max-height: 100vh;
+}
