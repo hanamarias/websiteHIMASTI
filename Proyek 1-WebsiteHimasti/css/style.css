@@ -31,3 +31,7 @@ header nav .container-fluid ul li a:hover{
 .beranda .carousel-inner img{
   max-height: 100vh;
 }
+
+.galery{
+  background-color: rgb(250, 245, 245);
+}
