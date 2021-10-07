@@ -5,6 +5,16 @@
   text-transform: capitalize;
   transition: all .3s ease-out;
 }
+section{
+  padding:20px 0;
+}
+section:nth-child(odd){
+  background: #f8f8fe;
+}
+.heading span{
+  color:blue;
+  padding:0 1.5rem;
+}
 /* *****************Style Header****************** */
 header{
   position: fixed;
@@ -23,7 +33,6 @@ header nav .container-fluid ul li a{
   margin-left: 20px;
   font-size: 18px;
 }
-header nav .container-fluid ul li a.active,
 header nav .container-fluid ul li a:hover{
   background-color: #6666ff;
   padding: 0, 20px;
@@ -34,4 +43,33 @@ header nav .container-fluid ul li a:hover{
 
 .galery{
   background-color: rgb(250, 245, 245);
+}
+.contact form{
+  padding:15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact form .box,
+.contact form textarea{
+  background:#f8f8fe;
+  border-radius: 5px;
+  font-size: 17px;
+  padding:10px;
+  margin:7px 0;
+  width: 100%;
+  text-transform: none;
+  color:var(--black);
+}
+
+.contact form textarea{
+  resize: none;
+  height: 200px;
+}
+
+.contact .map{
+  border-radius: 5px;
+  height: 100%;
+  width:100%;
+  margin-top: 1rem;
 }
